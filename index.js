@@ -1,8 +1,8 @@
 // code away!
 
-const app = require('./server')
+const app = require('./server.js')
 
-const PORT = 3000;
+const PORT = 5000;
 
 app.listen(PORT, () => {
     console.log(`Server is up and listening at port: ${PORT}`)
